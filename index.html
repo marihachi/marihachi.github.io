@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Mr8Alice</title>
+		<title>まりはち</title>
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css'>
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 		<style>
@@ -38,7 +38,11 @@
 								justify-content: center;
 								align-items: center;
 								text-decoration-line: none;
+								transition: .2s ease;
 							}
+								.content > .side > ul > li > a:hover {
+									background-color: hsla(0, 0%, 100%, 0.2);
+								}
 				.content > .main {
 					display: flex;
 					align-items: center;
@@ -75,6 +79,14 @@
 				border-radius: 25%;
 				border: 4px solid hsl(0, 0%, 100%);
 			}
+			#links a {
+				color: hsla(0, 0%, 100%, 0.6);
+				text-decoration-line: none;
+				transition: .5s ease;
+			}
+				#links a:hover {
+					color: hsla(0, 0%, 100%, 1);
+				}
 		</style>
 	</head>
 	<body>
@@ -93,7 +105,7 @@
 						<p>プログラムを書いたりして遊ぶのが好きです。</p>
 					</div>
 					<div>
-						<h1>興味</h1>
+						<h2>興味</h2>
 						<ul>
 							<li>アニメ
 								<ul>
@@ -110,9 +122,17 @@
 							</li>
 						</ul>
 					</div>
+
+					<div id='links'>
+						<h2>関連リンク</h2>
+						<ul>
+							<li><a href='https://frost-sns.ml/' target='_blank'>Frost</a></li>
+							<li><a href='http://skyflip.iza-yoi.net/' target='_blank'>Skyflip</a></li>
+							<li><a href='http://marihachi.hol.es/' target='_blank'>まりはちのサイト</a></li>
+						</ul>
+					</div>
 				</section>
 			</div>
-			
 		</div>
 	</body>
 </html>
