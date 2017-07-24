@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mr8Alice</title>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+		<style>
+			body {
+				background-color: hsl(201, 25%, 32%);
+				color: hsl(0, 0%, 100%);
+			}
+			.content {
+				display: flex;
+				min-width: 20rem;
+			}
+				.content > .side {
+					position: fixed;
+					margin-right: 1rem;
+				}
+					.content > .side > ul {
+						padding: 0;
+						margin: 0;
+					}
+						.content > .side > ul > li {
+							list-style: none;
+							padding: 0;
+							margin: 0;
+							margin-bottom: 1rem;
+						}
+							.content > .side > ul > li > a {
+								display: flex;
+								font-size: 1.5em;
+								color: hsl(0, 0%, 100%);
+								border: solid 1px hsl(0, 0%, 100%);
+								border-radius: 25%;
+								width: 3rem;
+								height: 3rem;
+								justify-content: center;
+								align-items: center;
+								text-decoration-line: none;
+							}
+				.content > .main {
+					display: flex;
+					align-items: center;
+					flex-direction: column;
+					width: 100%;
+					margin-top: 5rem;
+					margin-left: 4rem;
+				}
+					.content > .main > section {
+						max-width: 30rem;
+						min-width: 16rem;
+						margin: 1rem;
+					}
+						.content > .main > section p {
+							margin: 0;
+						}
+						.content > .main > section > div {
+							margin-bottom: 2rem;
+						}
+							.content > .main > section > div > h1,
+							.content > .main > section > div > h2 {
+								margin: 1rem 0;
+								font-weight: 100;
+							}
+							.content > .main > section > div > h1 {
+								font-size: 2rem;
+							}
+							.content > .main > section > div > h1 {
+								font-size: 1.5rem;
+							}
+			#avatar {
+				width: 128px;
+				height: 128px;
+				border-radius: 25%;
+				border: 4px solid hsl(0, 0%, 100%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class='content'>
+			<div class='side'>
+				<ul>
+					<li><a href='https://twitter.com/mr8Alice/' target='_blank'><i class='fa fa-twitter' aria-hidden='true'></i></a></li>
+					<li><a href='https://github.com/marihachi' target='_blank'><i class='fa fa-github' aria-hidden='true'></i></a></li>
+				</ul>
+			</div>
+			<div class='main'>
+				<section>
+					<div>
+						<img id='avatar' src='avatar.png' />
+						<h1>まりはち</h1>
+						<p>プログラムを書いたりして遊ぶのが好きです。</p>
+					</div>
+					<div>
+						<h1>興味</h1>
+						<ul>
+							<li>アニメ
+								<ul>
+									<li>魔法少女リリカルなのは</li>
+									<li>ご注文はうさぎですか？</li>
+								</ul>
+							</li>
+							<li>東方Project</li>
+							<li>プログラミング
+								<ul>
+									<li>C#</li>
+									<li>JavaScript</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			
+		</div>
+	</body>
+</html>
