@@ -79,14 +79,20 @@
 				border-radius: 25%;
 				border: 4px solid hsl(0, 0%, 100%);
 			}
-			#links a {
+			#links a, #works a {
 				color: hsla(0, 0%, 100%, 0.6);
 				text-decoration-line: none;
 				transition: .5s ease;
 			}
-				#links a:hover {
+				#links a:hover, #works a:hover {
 					color: hsla(0, 0%, 100%, 1);
 				}
+
+			#works small {
+				display: block;
+				margin: 7px 0;
+				font-size: 95%;
+			}
 		</style>
 	</head>
 	<body>
@@ -107,11 +113,11 @@
 					<div>
 						<h2>興味</h2>
 						<ul>
+							<li>API設計</li>
 							<li>プログラミング
 								<ul>
 									<li>C#</li>
 									<li>JavaScript(Node, Riot, Electron)</li>
-									<li>機械学習</li>
 								</ul>
 							</li>
 							<li>アニメ
@@ -130,6 +136,23 @@
 								<ul>
 									<li>楽曲(いえろ～ぜぶら, 凋叶棕)</li>
 								</ul>
+							</li>
+						</ul>
+					</div>
+					<div id='works'>
+						<h2>主な作品</h2>
+						<ul>
+							<li>
+								<p><a href='https://frost-social.ml/' target='_blank'>Frost</a> / <a href='https://api.frost-social.ml/' target='_blank'>Frost API</a> / <a href='https://github.com/Frost-Dev'>Frost(GitHub)</a></p>
+								<small>Node+Riot+MongoDB+WebSocketによるソーシャルメディアサービスの制作プロジェクト</small>
+							</li>
+							<li>
+								<p><a href='https://github.com/Legato-Dev/Legato'>Legato</a></p>
+								<small>AIMPで再生中の曲情報を取得、再生状態のコントロール等が可能な.NET向けライブラリ。たっけん(@Astrisk_)氏がプロジェクトを立ち上げ、その後共同で開発。</small>
+							</li>
+							<li>
+								<p><a href='https://github.com/marihachi/stacker'>Stacker</a></p>
+								<small>超！A＆G+をはじめとするネットラジオの録音、録画、予約が可能なWindows向けアプリケーション。</small>
 							</li>
 						</ul>
 					</div>
